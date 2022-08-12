@@ -4,10 +4,10 @@ public class SkippingThird {
 
     public  void printUntilButThird(int lastPrinted) {
         for(int i = 0;i<=lastPrinted;i+=3){
-            System.out.println(i);
             if(i==lastPrinted){
                 break;
             }
+            System.out.println(i);
         }
     }
 }
